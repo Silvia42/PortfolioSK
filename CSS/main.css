@@ -1,0 +1,52 @@
+.mainBox{
+    color:darkblue;
+    font-size: 38px;
+    border: solid;
+    height: 150px;
+    width: 500px;
+    margin-left: 100px;
+
+}
+
+.navBar{
+    color:darkblue;
+    font-size: 20px;
+    border: solid;
+    height: 50px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+.portrait{
+    color:darkblue;
+    font-size: 20px;
+    border: solid;
+    height: 150px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.portrait{
+    border-radius: 15px 50px;
+    background-image: url("/Images/Silvia01.jpg");
+    background-size: 10vw, auto;
+}
+.portrait :hover{
+    border-radius: 15px 50px;
+    width:10vw;
+    height: auto;
+}
+
+.highLights{
+    color:darkblue;
+    font-size: 20px;
+    border: solid;
+    height: 150px;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
