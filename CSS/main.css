@@ -1,15 +1,28 @@
+h1{
+    color:white;
+    text-shadow: 2px 2px 15px rgb(81, 167, 218);
+    /* text-shadow: 2px 2px 4px #000000; */
+    font-size: 5em;
+}
+h2{
+    color:white;
+    text-shadow: 2px 2px 5px rgb(81, 167, 218);
+    /* text-shadow: 2px 2px 4px #000000; */
+    font-size: 3em;
+}
+
 .mainBox{
-    color:darkblue;
-    font-size: 38px;
-    border: solid;
-    height: 150px;
-    width: 500px;
-    margin-left: 100px;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-image: url("/Images/GA_PCMbuilding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .navBar{
     color:darkblue;
@@ -56,9 +69,8 @@
 }
 
 .highLights{
-    color:darkblue;
-    font-size: 20px;
-    border: solid;
+    /* color:darkblue; */
+    /* border: solid; */
     height: 20vh;
     width: 80vw;
     margin-left: 200px;
@@ -68,8 +80,12 @@
 
 }
 ul {
+    font-size: 1em;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(81, 167, 218);
+    font-size: 2em;
   }
   
