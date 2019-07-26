@@ -5,6 +5,9 @@
     height: 150px;
     width: 500px;
     margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -18,35 +21,55 @@
     margin-top: 20px;
 
 }
-
+/* #################### PORTRAIT ############## */
 .portrait{
-    color:darkblue;
+    /* color:darkblue; */
     font-size: 20px;
-    border: solid;
-    height: 150px;
-    width: 100px;
+    /* border: 5px solid; */
+    height: 20vmin;
+    width: 20vmin;
     margin-left: 100px;
     margin-top: 20px;
+    border-radius: 15px 50px;
+    position: relative;
 
 }
-.portrait{
+.portrait img{
+    height: 100%;
     border-radius: 15px 50px;
-    background-image: url("/Images/Silvia01.jpg");
-    background-size: 10vw, auto;
+    object-fit: cover;
 }
-.portrait :hover{
-    border-radius: 15px 50px;
-    width:10vw;
-    height: auto;
+.topImg{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 42;
+}
+.portrait:hover .topImg{
+    height: 110%;
+    display: inline; 
+    /* border: 5px solid; */
+    /* border-block-color: darkblue; */
+    overflow: hidden;
+    
 }
 
 .highLights{
     color:darkblue;
     font-size: 20px;
     border: solid;
-    height: 150px;
-    width: 350px;
-    margin-left: 50px;
-    margin-top: 20px;
+    height: 20vh;
+    width: 80vw;
+    margin-left: 200px;
+    margin-top: 20vh;
+    padding: 20px;
+    text-align: center;
 
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
